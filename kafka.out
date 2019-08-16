@@ -1,0 +1,683 @@
+[2019-08-16 13:33:08,739] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2019-08-16 13:33:09,330] INFO starting (kafka.server.KafkaServer)
+[2019-08-16 13:33:09,332] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2019-08-16 13:33:09,360] INFO [ZooKeeperClient] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2019-08-16 13:33:09,367] INFO Client environment:zookeeper.version=3.4.13-2d71af4dbe22557fda74f9a9b4309b15a7487f03, built on 06/29/2018 00:39 GMT (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,367] INFO Client environment:host.name=192.168.0.28 (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,367] INFO Client environment:java.version=1.8.0_222 (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,367] INFO Client environment:java.vendor=AdoptOpenJDK (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,367] INFO Client environment:java.home=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,367] INFO Client environment:java.class.path=/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/activation-1.1.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/aopalliance-repackaged-2.5.0-b42.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/argparse4j-0.7.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/audience-annotations-0.5.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/commons-lang3-3.8.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/connect-api-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/connect-basic-auth-extension-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/connect-file-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/connect-json-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/connect-runtime-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/connect-transforms-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/guava-20.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/hk2-api-2.5.0-b42.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/hk2-locator-2.5.0-b42.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/hk2-utils-2.5.0-b42.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jackson-annotations-2.9.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jackson-core-2.9.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jackson-databind-2.9.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jackson-datatype-jdk8-2.9.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jackson-jaxrs-base-2.9.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jackson-jaxrs-json-provider-2.9.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jackson-module-jaxb-annotations-2.9.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/javassist-3.22.0-CR2.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/javax.annotation-api-1.2.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/javax.inject-1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/javax.inject-2.5.0-b42.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/javax.servlet-api-3.1.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/javax.ws.rs-api-2.1.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/javax.ws.rs-api-2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jaxb-api-2.3.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jersey-client-2.27.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jersey-common-2.27.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jersey-container-servlet-2.27.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jersey-container-servlet-core-2.27.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jersey-hk2-2.27.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jersey-media-jaxb-2.27.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jersey-server-2.27.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-client-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-continuation-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-http-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-io-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-security-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-server-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-servlet-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-servlets-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jetty-util-9.4.14.v20181114.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/jopt-simple-5.0.4.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka-clients-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka-log4j-appender-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka-streams-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka-streams-examples-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka-streams-scala_2.12-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka-streams-test-utils-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka-tools-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka_2.12-2.2.1-sources.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/kafka_2.12-2.2.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/log4j-1.2.17.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/lz4-java-1.5.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/maven-artifact-3.6.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/metrics-core-2.2.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/osgi-resource-locator-1.0.1.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/plexus-utils-3.1.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/reflections-0.9.11.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/rocksdbjni-5.15.10.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/scala-library-2.12.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/scala-logging_2.12-3.9.0.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/scala-reflect-2.12.8.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/slf4j-api-1.7.25.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/slf4j-log4j12-1.7.25.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/snappy-java-1.1.7.2.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/validation-api-1.1.0.Final.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/zkclient-0.11.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/zookeeper-3.4.13.jar:/usr/local/Cellar/kafka/2.2.1/libexec/bin/../libs/zstd-jni-1.3.8-1.jar (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:java.library.path=/Users/gasperr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:java.io.tmpdir=/var/folders/gs/3lcdrzjn5g18_j244z3j4ldjz4fdjq/T/ (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:java.compiler=<NA> (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:os.name=Mac OS X (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:os.arch=x86_64 (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:os.version=10.13.6 (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:user.name=gasperr (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:user.home=/Users/gasperr (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,368] INFO Client environment:user.dir=/Users/gasperr/git/kafka_tweets (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,370] INFO Initiating client connection, connectString=localhost:2181 sessionTimeout=6000 watcher=kafka.zookeeper.ZooKeeperClient$ZooKeeperClientWatcher$@4b5d6a01 (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:33:09,387] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:33:09,388] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-08-16 13:33:09,409] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:33:09,428] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1000cd4fd840000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:33:09,432] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-08-16 13:33:09,741] INFO Cluster ID = 5sBLAO7JQj2MOWe8c5YMcA (kafka.server.KafkaServer)
+[2019-08-16 13:33:09,746] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2019-08-16 13:33:09,821] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-08-16 13:33:09,830] INFO KafkaConfig values: 
+	advertised.host.name = null
+	advertised.listeners = null
+	advertised.port = null
+	alter.config.policy.class.name = null
+	alter.log.dirs.replication.quota.window.num = 11
+	alter.log.dirs.replication.quota.window.size.seconds = 1
+	authorizer.class.name = 
+	auto.create.topics.enable = true
+	auto.leader.rebalance.enable = true
+	background.threads = 10
+	broker.id = 0
+	broker.id.generation.enable = true
+	broker.rack = null
+	client.quota.callback.class = null
+	compression.type = producer
+	connection.failed.authentication.delay.ms = 100
+	connections.max.idle.ms = 600000
+	connections.max.reauth.ms = 0
+	control.plane.listener.name = null
+	controlled.shutdown.enable = true
+	controlled.shutdown.max.retries = 3
+	controlled.shutdown.retry.backoff.ms = 5000
+	controller.socket.timeout.ms = 30000
+	create.topic.policy.class.name = null
+	default.replication.factor = 1
+	delegation.token.expiry.check.interval.ms = 3600000
+	delegation.token.expiry.time.ms = 86400000
+	delegation.token.master.key = null
+	delegation.token.max.lifetime.ms = 604800000
+	delete.records.purgatory.purge.interval.requests = 1
+	delete.topic.enable = true
+	fetch.purgatory.purge.interval.requests = 1000
+	group.initial.rebalance.delay.ms = 0
+	group.max.session.timeout.ms = 300000
+	group.max.size = 2147483647
+	group.min.session.timeout.ms = 6000
+	host.name = 
+	inter.broker.listener.name = null
+	inter.broker.protocol.version = 2.2-IV1
+	kafka.metrics.polling.interval.secs = 10
+	kafka.metrics.reporters = []
+	leader.imbalance.check.interval.seconds = 300
+	leader.imbalance.per.broker.percentage = 10
+	listener.security.protocol.map = PLAINTEXT:PLAINTEXT,SSL:SSL,SASL_PLAINTEXT:SASL_PLAINTEXT,SASL_SSL:SASL_SSL
+	listeners = null
+	log.cleaner.backoff.ms = 15000
+	log.cleaner.dedupe.buffer.size = 134217728
+	log.cleaner.delete.retention.ms = 86400000
+	log.cleaner.enable = true
+	log.cleaner.io.buffer.load.factor = 0.9
+	log.cleaner.io.buffer.size = 524288
+	log.cleaner.io.max.bytes.per.second = 1.7976931348623157E308
+	log.cleaner.min.cleanable.ratio = 0.5
+	log.cleaner.min.compaction.lag.ms = 0
+	log.cleaner.threads = 1
+	log.cleanup.policy = [delete]
+	log.dir = /tmp/kafka-logs
+	log.dirs = /tmp/kafka-logs
+	log.flush.interval.messages = 9223372036854775807
+	log.flush.interval.ms = null
+	log.flush.offset.checkpoint.interval.ms = 60000
+	log.flush.scheduler.interval.ms = 9223372036854775807
+	log.flush.start.offset.checkpoint.interval.ms = 60000
+	log.index.interval.bytes = 4096
+	log.index.size.max.bytes = 10485760
+	log.message.downconversion.enable = true
+	log.message.format.version = 2.2-IV1
+	log.message.timestamp.difference.max.ms = 9223372036854775807
+	log.message.timestamp.type = CreateTime
+	log.preallocate = false
+	log.retention.bytes = -1
+	log.retention.check.interval.ms = 300000
+	log.retention.hours = 168
+	log.retention.minutes = null
+	log.retention.ms = null
+	log.roll.hours = 168
+	log.roll.jitter.hours = 0
+	log.roll.jitter.ms = null
+	log.roll.ms = null
+	log.segment.bytes = 1073741824
+	log.segment.delete.delay.ms = 60000
+	max.connections.per.ip = 2147483647
+	max.connections.per.ip.overrides = 
+	max.incremental.fetch.session.cache.slots = 1000
+	message.max.bytes = 1000012
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	min.insync.replicas = 1
+	num.io.threads = 8
+	num.network.threads = 3
+	num.partitions = 1
+	num.recovery.threads.per.data.dir = 1
+	num.replica.alter.log.dirs.threads = null
+	num.replica.fetchers = 1
+	offset.metadata.max.bytes = 4096
+	offsets.commit.required.acks = -1
+	offsets.commit.timeout.ms = 5000
+	offsets.load.buffer.size = 5242880
+	offsets.retention.check.interval.ms = 600000
+	offsets.retention.minutes = 10080
+	offsets.topic.compression.codec = 0
+	offsets.topic.num.partitions = 50
+	offsets.topic.replication.factor = 1
+	offsets.topic.segment.bytes = 104857600
+	password.encoder.cipher.algorithm = AES/CBC/PKCS5Padding
+	password.encoder.iterations = 4096
+	password.encoder.key.length = 128
+	password.encoder.keyfactory.algorithm = null
+	password.encoder.old.secret = null
+	password.encoder.secret = null
+	port = 9092
+	principal.builder.class = null
+	producer.purgatory.purge.interval.requests = 1000
+	queued.max.request.bytes = -1
+	queued.max.requests = 500
+	quota.consumer.default = 9223372036854775807
+	quota.producer.default = 9223372036854775807
+	quota.window.num = 11
+	quota.window.size.seconds = 1
+	replica.fetch.backoff.ms = 1000
+	replica.fetch.max.bytes = 1048576
+	replica.fetch.min.bytes = 1
+	replica.fetch.response.max.bytes = 10485760
+	replica.fetch.wait.max.ms = 500
+	replica.high.watermark.checkpoint.interval.ms = 5000
+	replica.lag.time.max.ms = 10000
+	replica.socket.receive.buffer.bytes = 65536
+	replica.socket.timeout.ms = 30000
+	replication.quota.window.num = 11
+	replication.quota.window.size.seconds = 1
+	request.timeout.ms = 30000
+	reserved.broker.max.id = 1000
+	sasl.client.callback.handler.class = null
+	sasl.enabled.mechanisms = [GSSAPI]
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.principal.to.local.rules = [DEFAULT]
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism.inter.broker.protocol = GSSAPI
+	sasl.server.callback.handler.class = null
+	security.inter.broker.protocol = PLAINTEXT
+	socket.receive.buffer.bytes = 102400
+	socket.request.max.bytes = 104857600
+	socket.send.buffer.bytes = 102400
+	ssl.cipher.suites = []
+	ssl.client.auth = none
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.principal.mapping.rules = [DEFAULT]
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.abort.timed.out.transaction.cleanup.interval.ms = 60000
+	transaction.max.timeout.ms = 900000
+	transaction.remove.expired.transaction.cleanup.interval.ms = 3600000
+	transaction.state.log.load.buffer.size = 5242880
+	transaction.state.log.min.isr = 1
+	transaction.state.log.num.partitions = 50
+	transaction.state.log.replication.factor = 1
+	transaction.state.log.segment.bytes = 104857600
+	transactional.id.expiration.ms = 604800000
+	unclean.leader.election.enable = false
+	zookeeper.connect = localhost:2181
+	zookeeper.connection.timeout.ms = 6000
+	zookeeper.max.in.flight.requests = 10
+	zookeeper.session.timeout.ms = 6000
+	zookeeper.set.acl = false
+	zookeeper.sync.time.ms = 2000
+ (kafka.server.KafkaConfig)
+[2019-08-16 13:33:09,856] INFO [ThrottledChannelReaper-Fetch]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:33:09,857] INFO [ThrottledChannelReaper-Produce]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:33:09,858] INFO [ThrottledChannelReaper-Request]: Starting (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:33:09,884] INFO Log directory /tmp/kafka-logs not found, creating it. (kafka.log.LogManager)
+[2019-08-16 13:33:09,897] INFO Loading logs. (kafka.log.LogManager)
+[2019-08-16 13:33:09,905] INFO Logs loading complete in 8 ms. (kafka.log.LogManager)
+[2019-08-16 13:33:09,921] INFO Starting log cleanup with a period of 300000 ms. (kafka.log.LogManager)
+[2019-08-16 13:33:09,924] INFO Starting log flusher with a default period of 9223372036854775807 ms. (kafka.log.LogManager)
+[2019-08-16 13:33:10,214] INFO Awaiting socket connections on s0.0.0.0:9092. (kafka.network.Acceptor)
+[2019-08-16 13:33:10,243] INFO [SocketServer brokerId=0] Created data-plane acceptor and processors for endpoint : EndPoint(null,9092,ListenerName(PLAINTEXT),PLAINTEXT) (kafka.network.SocketServer)
+[2019-08-16 13:33:10,244] INFO [SocketServer brokerId=0] Started 1 acceptor threads for data-plane (kafka.network.SocketServer)
+[2019-08-16 13:33:10,270] INFO [ExpirationReaper-0-Produce]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:33:10,271] INFO [ExpirationReaper-0-Fetch]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:33:10,272] INFO [ExpirationReaper-0-DeleteRecords]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:33:10,272] INFO [ExpirationReaper-0-ElectPreferredLeader]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:33:10,285] INFO [LogDirFailureHandler]: Starting (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-08-16 13:33:10,307] INFO Creating /brokers/ids/0 (is it secure? false) (kafka.zk.KafkaZkClient)
+[2019-08-16 13:33:10,326] INFO Stat of the created znode at /brokers/ids/0 is: 26,26,1565976790319,1565976790319,1,0,0,72071702963814400,194,0,26
+ (kafka.zk.KafkaZkClient)
+[2019-08-16 13:33:10,326] INFO Registered broker 0 at path /brokers/ids/0 with addresses: ArrayBuffer(EndPoint(192.168.0.28,9092,ListenerName(PLAINTEXT),PLAINTEXT)), czxid (broker epoch): 26 (kafka.zk.KafkaZkClient)
+[2019-08-16 13:33:10,328] WARN No meta.properties file under dir /tmp/kafka-logs/meta.properties (kafka.server.BrokerMetadataCheckpoint)
+[2019-08-16 13:33:10,386] INFO [ExpirationReaper-0-topic]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:33:10,389] INFO [ExpirationReaper-0-Heartbeat]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:33:10,390] INFO [ExpirationReaper-0-Rebalance]: Starting (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:33:10,390] INFO Successfully created /controller_epoch with initial epoch 0 (kafka.zk.KafkaZkClient)
+[2019-08-16 13:33:10,421] INFO [GroupCoordinator 0]: Starting up. (kafka.coordinator.group.GroupCoordinator)
+[2019-08-16 13:33:10,422] INFO [GroupCoordinator 0]: Startup complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-08-16 13:33:10,426] INFO [GroupMetadataManager brokerId=0] Removed 0 expired offsets in 4 milliseconds. (kafka.coordinator.group.GroupMetadataManager)
+[2019-08-16 13:33:10,435] INFO [ProducerId Manager 0]: Acquired new producerId block (brokerId:0,blockStartProducerId:0,blockEndProducerId:999) by writing to Zk with path version 1 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-08-16 13:33:10,458] INFO [TransactionCoordinator id=0] Starting up. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-08-16 13:33:10,459] INFO [Transaction Marker Channel Manager 0]: Starting (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-08-16 13:33:10,459] INFO [TransactionCoordinator id=0] Startup complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-08-16 13:33:10,506] INFO [/config/changes-event-process-thread]: Starting (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-08-16 13:33:10,519] INFO [SocketServer brokerId=0] Started data-plane processors for 1 acceptors (kafka.network.SocketServer)
+[2019-08-16 13:33:10,524] INFO Kafka version: 2.2.1 (org.apache.kafka.common.utils.AppInfoParser)
+[2019-08-16 13:33:10,524] INFO Kafka commitId: 55783d3133a5a49a (org.apache.kafka.common.utils.AppInfoParser)
+[2019-08-16 13:33:10,526] INFO [KafkaServer id=0] started (kafka.server.KafkaServer)
+[2019-08-16 13:33:10,594] INFO Creating topic tweets with configuration {} and initial partition assignment Map(0 -> ArrayBuffer(0)) (kafka.zk.AdminZkClient)
+[2019-08-16 13:33:10,650] INFO [ReplicaFetcherManager on broker 0] Removed fetcher for partitions Set(tweets-0) (kafka.server.ReplicaFetcherManager)
+[2019-08-16 13:33:10,714] INFO [Log partition=tweets-0, dir=/tmp/kafka-logs] Loading producer state till offset 0 with message format version 2 (kafka.log.Log)
+[2019-08-16 13:33:10,721] INFO [Log partition=tweets-0, dir=/tmp/kafka-logs] Completed load of log with 1 segments, log start offset 0 and log end offset 0 in 50 ms (kafka.log.Log)
+[2019-08-16 13:33:10,722] INFO Created log for partition tweets-0 in /tmp/kafka-logs with properties {compression.type -> producer, message.format.version -> 2.2-IV1, file.delete.delay.ms -> 60000, max.message.bytes -> 1000012, min.compaction.lag.ms -> 0, message.timestamp.type -> CreateTime, message.downconversion.enable -> true, min.insync.replicas -> 1, segment.jitter.ms -> 0, preallocate -> false, min.cleanable.dirty.ratio -> 0.5, index.interval.bytes -> 4096, unclean.leader.election.enable -> false, retention.bytes -> -1, delete.retention.ms -> 86400000, cleanup.policy -> [delete], flush.ms -> 9223372036854775807, segment.ms -> 604800000, segment.bytes -> 1073741824, retention.ms -> 604800000, message.timestamp.difference.max.ms -> 9223372036854775807, segment.index.bytes -> 10485760, flush.messages -> 9223372036854775807}. (kafka.log.LogManager)
+[2019-08-16 13:33:10,723] INFO [Partition tweets-0 broker=0] No checkpointed highwatermark is found for partition tweets-0 (kafka.cluster.Partition)
+[2019-08-16 13:33:10,725] INFO Replica loaded for partition tweets-0 with initial high watermark 0 (kafka.cluster.Replica)
+[2019-08-16 13:33:10,727] INFO [Partition tweets-0 broker=0] tweets-0 starts at Leader Epoch 0 from offset 0. Previous Leader Epoch was: -1 (kafka.cluster.Partition)
+[2019-08-16 13:35:30,183] INFO Unable to read additional data from server sessionid 0x1000cd4fd840000, likely server has closed socket, closing socket connection and attempting reconnect (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:31,421] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:31,422] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:33,320] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-08-16 13:35:33,322] INFO [KafkaServer id=0] shutting down (kafka.server.KafkaServer)
+[2019-08-16 13:35:33,323] INFO [KafkaServer id=0] Starting controlled shutdown (kafka.server.KafkaServer)
+[2019-08-16 13:35:33,422] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:33,422] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:33,529] INFO [ZooKeeperClient] Waiting until connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-08-16 13:35:34,531] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:34,532] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:36,515] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:36,516] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:38,502] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:38,503] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:40,204] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:40,205] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:41,406] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:41,407] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:42,517] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:42,518] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:43,877] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:43,878] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:45,001] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:45,002] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:46,911] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:46,912] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:48,054] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:48,055] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:48,427] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-08-16 13:35:49,548] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:49,549] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:50,840] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:50,841] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:52,541] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:52,541] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:54,531] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:54,532] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:55,981] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:55,982] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:57,809] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:57,810] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:59,614] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:35:59,615] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:00,881] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:00,882] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:02,199] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:02,200] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:04,257] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:04,258] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:06,047] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:06,048] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:08,020] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:08,021] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:09,819] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:09,820] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:11,276] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:11,277] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:13,181] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:13,182] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:14,961] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:14,962] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:17,061] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:17,062] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:18,220] INFO Terminating process due to signal SIGTERM (org.apache.kafka.common.utils.LoggingSignalHandler)
+[2019-08-16 13:36:18,795] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:18,796] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:20,138] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:20,138] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:21,567] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:21,568] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:23,331] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:23,332] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:24,484] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:24,485] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:26,438] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:26,438] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:28,172] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:28,173] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:29,638] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:29,638] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:31,423] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:31,423] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:32,865] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:32,865] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:34,428] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:34,429] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:36,054] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:36,055] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:37,350] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:37,351] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:39,189] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:39,190] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:40,721] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:40,722] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:42,314] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:42,316] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:44,250] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:44,251] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:46,131] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:46,132] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:47,447] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:47,448] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:49,469] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:49,469] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:51,224] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:51,225] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:53,138] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:53,139] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:54,314] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:54,315] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:55,700] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:55,700] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:57,482] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:57,483] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:58,965] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:36:58,966] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:00,715] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:00,717] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:02,309] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:02,310] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:03,898] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:03,899] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:05,760] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:05,760] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:07,007] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:07,007] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:09,109] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:09,110] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:10,815] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:10,816] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:12,787] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:12,787] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:14,105] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:14,106] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:15,590] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:15,591] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:17,149] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:17,150] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:19,240] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:19,240] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:20,797] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:20,798] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:21,908] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:21,909] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:23,945] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:23,946] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:25,206] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:25,207] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:26,960] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:26,961] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:28,110] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:28,111] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:29,996] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:29,997] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:31,872] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:31,873] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:33,910] INFO Opening socket connection to server localhost/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:33,911] INFO Socket error occurred: localhost/127.0.0.1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:35,400] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:35,401] INFO Socket error occurred: localhost/0:0:0:0:0:0:0:1:2181: Connection refused (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:36,990] INFO Opening socket connection to server localhost/0:0:0:0:0:0:0:1:2181. Will not attempt to authenticate using SASL (unknown error) (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:36,991] INFO Socket connection established to localhost/0:0:0:0:0:0:0:1:2181, initiating session (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:37,006] INFO Session establishment complete on server localhost/0:0:0:0:0:0:0:1:2181, sessionid = 0x1000cd4fd840000, negotiated timeout = 6000 (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:37,007] INFO [ZooKeeperClient] Connected. (kafka.zookeeper.ZooKeeperClient)
+[2019-08-16 13:37:37,022] INFO [KafkaServer id=0] Controlled shutdown succeeded (kafka.server.KafkaServer)
+[2019-08-16 13:37:37,026] INFO [/config/changes-event-process-thread]: Shutting down (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-08-16 13:37:37,026] INFO [/config/changes-event-process-thread]: Stopped (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-08-16 13:37:37,027] INFO [/config/changes-event-process-thread]: Shutdown completed (kafka.common.ZkNodeChangeNotificationListener$ChangeEventProcessThread)
+[2019-08-16 13:37:37,027] INFO [SocketServer brokerId=0] Stopping socket server request processors (kafka.network.SocketServer)
+[2019-08-16 13:37:37,036] INFO [SocketServer brokerId=0] Stopped socket server request processors (kafka.network.SocketServer)
+[2019-08-16 13:37:37,037] INFO [data-plane Kafka Request Handler on Broker 0], shutting down (kafka.server.KafkaRequestHandlerPool)
+[2019-08-16 13:37:37,047] INFO [data-plane Kafka Request Handler on Broker 0], shut down completely (kafka.server.KafkaRequestHandlerPool)
+[2019-08-16 13:37:37,051] INFO [KafkaApi-0] Shutdown complete. (kafka.server.KafkaApis)
+[2019-08-16 13:37:37,052] INFO [ExpirationReaper-0-topic]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,193] INFO [ExpirationReaper-0-topic]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,193] INFO [ExpirationReaper-0-topic]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,197] INFO [TransactionCoordinator id=0] Shutting down. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-08-16 13:37:37,198] INFO [ProducerId Manager 0]: Shutdown complete: last producerId assigned 0 (kafka.coordinator.transaction.ProducerIdManager)
+[2019-08-16 13:37:37,198] INFO [Transaction State Manager 0]: Shutdown complete (kafka.coordinator.transaction.TransactionStateManager)
+[2019-08-16 13:37:37,198] INFO [Transaction Marker Channel Manager 0]: Shutting down (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-08-16 13:37:37,199] INFO [Transaction Marker Channel Manager 0]: Stopped (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-08-16 13:37:37,199] INFO [Transaction Marker Channel Manager 0]: Shutdown completed (kafka.coordinator.transaction.TransactionMarkerChannelManager)
+[2019-08-16 13:37:37,199] INFO [TransactionCoordinator id=0] Shutdown complete. (kafka.coordinator.transaction.TransactionCoordinator)
+[2019-08-16 13:37:37,200] INFO [GroupCoordinator 0]: Shutting down. (kafka.coordinator.group.GroupCoordinator)
+[2019-08-16 13:37:37,200] INFO [ExpirationReaper-0-Heartbeat]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,200] INFO [ExpirationReaper-0-Heartbeat]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,200] INFO [ExpirationReaper-0-Heartbeat]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,201] INFO [ExpirationReaper-0-Rebalance]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,403] INFO [ExpirationReaper-0-Rebalance]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,403] INFO [ExpirationReaper-0-Rebalance]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,404] INFO [GroupCoordinator 0]: Shutdown complete. (kafka.coordinator.group.GroupCoordinator)
+[2019-08-16 13:37:37,405] INFO [ReplicaManager broker=0] Shutting down (kafka.server.ReplicaManager)
+[2019-08-16 13:37:37,405] INFO [LogDirFailureHandler]: Shutting down (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-08-16 13:37:37,405] INFO [LogDirFailureHandler]: Stopped (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-08-16 13:37:37,405] INFO [LogDirFailureHandler]: Shutdown completed (kafka.server.ReplicaManager$LogDirFailureHandler)
+[2019-08-16 13:37:37,406] INFO [ReplicaFetcherManager on broker 0] shutting down (kafka.server.ReplicaFetcherManager)
+[2019-08-16 13:37:37,408] INFO [ReplicaFetcherManager on broker 0] shutdown completed (kafka.server.ReplicaFetcherManager)
+[2019-08-16 13:37:37,408] INFO [ReplicaAlterLogDirsManager on broker 0] shutting down (kafka.server.ReplicaAlterLogDirsManager)
+[2019-08-16 13:37:37,409] INFO [ReplicaAlterLogDirsManager on broker 0] shutdown completed (kafka.server.ReplicaAlterLogDirsManager)
+[2019-08-16 13:37:37,409] INFO [ExpirationReaper-0-Fetch]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,484] INFO [ExpirationReaper-0-Fetch]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,484] INFO [ExpirationReaper-0-Fetch]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,484] INFO [ExpirationReaper-0-Produce]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,686] INFO [ExpirationReaper-0-Produce]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,686] INFO [ExpirationReaper-0-Produce]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,686] INFO [ExpirationReaper-0-DeleteRecords]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,704] INFO [ExpirationReaper-0-DeleteRecords]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,704] INFO [ExpirationReaper-0-DeleteRecords]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,704] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutting down (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,890] INFO [ExpirationReaper-0-ElectPreferredLeader]: Stopped (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,890] INFO [ExpirationReaper-0-ElectPreferredLeader]: Shutdown completed (kafka.server.DelayedOperationPurgatory$ExpiredOperationReaper)
+[2019-08-16 13:37:37,895] INFO [ReplicaManager broker=0] Shut down completely (kafka.server.ReplicaManager)
+[2019-08-16 13:37:37,896] INFO Shutting down. (kafka.log.LogManager)
+[2019-08-16 13:37:37,926] INFO Shutdown complete. (kafka.log.LogManager)
+[2019-08-16 13:37:37,933] INFO [ZooKeeperClient] Closing. (kafka.zookeeper.ZooKeeperClient)
+[2019-08-16 13:37:37,940] INFO Session: 0x1000cd4fd840000 closed (org.apache.zookeeper.ZooKeeper)
+[2019-08-16 13:37:37,940] INFO EventThread shut down for session: 0x1000cd4fd840000 (org.apache.zookeeper.ClientCnxn)
+[2019-08-16 13:37:37,941] INFO [ZooKeeperClient] Closed. (kafka.zookeeper.ZooKeeperClient)
+[2019-08-16 13:37:37,941] INFO [ThrottledChannelReaper-Fetch]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:38,466] INFO [ThrottledChannelReaper-Fetch]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:38,466] INFO [ThrottledChannelReaper-Fetch]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:38,466] INFO [ThrottledChannelReaper-Produce]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:39,466] INFO [ThrottledChannelReaper-Produce]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:39,466] INFO [ThrottledChannelReaper-Produce]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:39,466] INFO [ThrottledChannelReaper-Request]: Shutting down (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:40,467] INFO [ThrottledChannelReaper-Request]: Stopped (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:40,468] INFO [ThrottledChannelReaper-Request]: Shutdown completed (kafka.server.ClientQuotaManager$ThrottledChannelReaper)
+[2019-08-16 13:37:40,470] INFO [SocketServer brokerId=0] Shutting down socket server (kafka.network.SocketServer)
+[2019-08-16 13:37:40,490] INFO [SocketServer brokerId=0] Shutdown completed (kafka.network.SocketServer)
+[2019-08-16 13:37:40,492] INFO [KafkaServer id=0] shut down completed (kafka.server.KafkaServer)
