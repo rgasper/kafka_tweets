@@ -45,5 +45,8 @@ if __name__ == '__main__':
         if count >= max_tweets:
             log.info('done logging tweets, hit max count')
             break
+    prod.flush()
+    log.info('exited gracefully...')
+
 
 
