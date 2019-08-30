@@ -32,7 +32,7 @@ if __name__ == '__main__':
     access_token_key=ACCESS_TOKEN,
     access_token_secret=ACCESS_TOKEN_SECRET)
     log.info("Connected to Twitter API!")
-    prod = Producer({'bootstrap.servers': '0.0.0.0:9092'})
+    prod = Producer({'bootstrap.servers': '127.0.0.1:9092'})
     log.info("Producer connected to Python Server")
     # log some tweet dumps
     max_tweets = 5
